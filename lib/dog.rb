@@ -4,6 +4,6 @@ class Dog
   
   
   def initialize(attributes)
-    attributes.each {|key, value| self.send{#
+    attributes.each {|key, value| self.sen
   end
 end
