@@ -4,6 +4,6 @@ class Dog
   
   
   def initialize(attributes)
-    attributes.each {|atr|
+    attributes.each {|key, value| 
   end
 end
