@@ -56,7 +56,7 @@ class Dog
     SQL
     DB[:conn].execute(sql)[0]
   end
-  self.new_from_db(row)
+  self.new_from_db(sql)
 end
 
     
