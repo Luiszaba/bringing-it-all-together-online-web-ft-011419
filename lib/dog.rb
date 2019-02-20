@@ -67,7 +67,8 @@ class Dog
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
   
-  def self.find_or_create_by_
+  def self.find_or_create_by
+    
 end
     
     
