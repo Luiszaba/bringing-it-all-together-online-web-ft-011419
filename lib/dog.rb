@@ -47,10 +47,7 @@ class Dog
   end
   
   def self.find_by_id(id)
-    sql = <<-SQL
-    SELECT * FROM dogs WHERE id=? LIMIT 1
-    SQL
-DB[:conn].execute(sql, self.id)[0]
+    pet_sch = DB[:conn].execute(sql, self.id)[0]
 end
 self
 end
