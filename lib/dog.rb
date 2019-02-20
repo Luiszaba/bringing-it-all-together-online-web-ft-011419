@@ -46,6 +46,12 @@ class Dog
     pet
   end
   
+  def self.new_from_db
+    id=[0]
+    name=[1]
+    breed=[2]
+    
+  
   def self.find_by_id(id)
     pet_sch = DB[:conn].execute(sql, self.id)[0]
 end
