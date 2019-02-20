@@ -27,8 +27,8 @@ class Dog
     DB[:conn].execute(sql)
   end
   
-  def save
-    sql = <<-SQL
+  def save(pet)
+    pet = Dog
     
     
     
