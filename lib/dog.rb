@@ -45,6 +45,10 @@ class Dog
     pet.save
     pet
   end
+  
+  
+  def self.find_by_id
+    
 end
 
 
