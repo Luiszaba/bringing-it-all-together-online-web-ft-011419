@@ -52,6 +52,7 @@ class Dog
   
   def self.find_by_id(id)
     pet_sch = DB[:conn].execute(sql, self.id)[0]
+    
 end
 self
 end
