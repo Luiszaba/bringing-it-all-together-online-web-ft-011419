@@ -28,7 +28,10 @@ class Dog
   end
   
   def save
-    if .update
+    if id.update
+      self.update
+    else 
+      sql = <<-SQL
       
     
     
