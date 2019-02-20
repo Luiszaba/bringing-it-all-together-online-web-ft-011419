@@ -61,7 +61,8 @@ class Dog
   end
   
   def self.update
-    
+    sql = <<-SQL
+    UPDATE dogs SET name = ?, breed = ? id = ?)
 end
     
     
